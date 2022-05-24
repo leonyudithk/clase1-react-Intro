@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# crear desde git bash
+ npx create-react-app nombreCarpeta
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ # esperar hasta que salga Happy hacking!
 
-## Available Scripts
+ # desde git bash cd nombreCarpeta  cunado ya entre a la carpeta escribo code . e ingreso
 
-In the project directory, you can run:
+ # Debo limpiar todo
+    dejo dentro de public solo el index.html y dentro de index.html
+    debe quedar asign<!DOCTYPE html>
+                <html lang="en">
+                <head>
+                    <meta charset="utf-8" />
+                    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1" />
+                    <meta name="theme-color" content="#000000" />
+                
+                    <title>Clase 1 de F11 React</title>
+                </head>
+                <body>
+                    <noscript>You need to enable JavaScript to run this app.</noscript>
+                    <div id="root"></div>
 
-### `npm start`
+                </body>
+                </html>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# debe limpiar el SRC
+ solo debe quedar el index.js y debe quedar asi
+             import React from 'react';
+            import ReactDOM from 'react-dom/client';
+            import App from './App';
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+            const root = ReactDOM.createRoot(document.getElementById('root'));
+            root.render(
+            <React.StrictMode>
+                <App/>
+            </React.StrictMode>
+            );
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# y modifico mi App.js para conectar al navegador
 
-### `npm run build`
+# para correr el programa con la    
+    npm run start    o        npm start app
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Snippets deben instalar desde las extensiones Simple React Snippets y ES7+ React/Redux/React-Natives
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+//////////////////////////////////////////////
+///-------------Sniper---------------------/// 
+/**     para componentes de Clases rcc
+ *      para componente de funcion rsf
+ *      para componente de Estados rsc
+ *      rafce
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ *////////////////////////////////////////////
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ # pa
