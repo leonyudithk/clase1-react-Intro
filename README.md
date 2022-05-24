@@ -55,4 +55,11 @@
  *////////////////////////////////////////////
 
 
- # pa
+ # Creamos el data.json
+ # levantamos el servidor de
+ json-server --watch ./src/assets/data.json --port 3004
+
+ http://localhost:3004/peliculas
+
+
+ # instalar React Router Dom para el manejo de las rutas

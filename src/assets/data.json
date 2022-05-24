@@ -1,0 +1,26 @@
+{
+    "peliculas": [
+    {
+      "id": "1",
+      "Title": "Avatar",
+      "Poster": "https://es.web.img2.acsta.net/c_310_420/pictures/20/06/17/11/47/3296884.jpg",
+      "Year": "2009",
+      "Type": "movie"
+    },
+    {
+      "id": "2",
+      "Title": "Titanic",
+      "Year": "1997",
+      "Poster": "https://i.blogs.es/4a9cb1/titanic/840_560.jpeg",
+      "Type": "movie"
+    },
+    {
+      "id": "3",
+      "Title": "Star Wars: The Force Awakens",
+      "Year": "2015",
+      "Poster": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/6bf4fe463fc97e53495f870e5ddcfca864c129d69e4b60e7d0b5793ac92f2ac5._V_SX450_.jpg",
+      "Type": "movie"
+    }
+  ]
+
+}
